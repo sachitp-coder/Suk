@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Rose Day My Love</title>
+    <link rel="stylesheet" href="style.css">  <!-- Linking CSS file -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Happy Rose Day, My Love! 🌹</h1>
+        <p>Every petal of a rose whispers my love for you. You are the most precious flower in my life! ❤️</p>
+        <button class="button" onclick="showSurprise()">Click for a Surprise</button>
+        <p class="hidden-message" id="surpriseText">I Love You Forever! 💖🌹</p>
+    </div>
+
+    <!-- Background Music -->
+    <audio autoplay loop>
+        <source src="your-music-file.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function showSurprise() {
+            document.getElementById("surpriseText").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
